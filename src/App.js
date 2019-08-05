@@ -8,7 +8,7 @@ function App() {
   return (
     <div className ="demo-big-content">
     <Layout fixedHeader>
-        <Header className="header-color" title={<span><span> </span><strong>The Title</strong></span>}>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color:'white'}} to='/'>Mi Portafolio</Link> } scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
@@ -16,7 +16,7 @@ function App() {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title"  >
+        <Drawer title={<Link style={{textDecoration: 'none', color:'grey'}} to='/'>Mi Portafolio</Link> }  >
             <Navigation >
             <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
