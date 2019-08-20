@@ -18,7 +18,7 @@ render () {
                     <h2 style={{paddingTop:'2em'}}>Juan David Orozco</h2>
                     <h4 style = {{color : 'grey'}}>Ingeniero de sistemas</h4>
                     <hr style = {{borderTop: '3px solid #833fb2', width: '60%'}}/>
-                    <p>Novio de Angie</p>
+                    <p>Perfil profesional</p>
                     <hr style = {{borderTop: '3px solid #833fb2', width: '60%'}}/>
                     <h5>Dirección</h5>
                     <p>Carrera 98A#68A-15</p>
