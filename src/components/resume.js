@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Skills from './skills';
+import Experience from './experience';
 
 class Resume  extends Component{
 render () {
@@ -18,31 +19,39 @@ render () {
                     <h2 style={{paddingTop:'2em'}}>Juan David Orozco</h2>
                     <h4 style = {{color : 'grey'}}>Ingeniero de sistemas</h4>
                     <hr style = {{borderTop: '3px solid #833fb2', width: '60%'}}/>
-                    <p>Perfil profesional</p>
+                    <p>Soy ingeniero de sistemas en formación de la Pontificia Universidad Javeriana, interesado principalmente en las áreas de construcción de software, sistemas de información y gestión, arquitectura empresarial y análisis de datos. Mi experiencia laboral ha girado en torno al diseño de sistemas de información y al desarrollo de software en plataformas web y móvil. Además me caracterizo por ser empático, creativo, tener un pensamiento analítico para el diseño de soluciones de software empresarial y con capacidad de adaptabilidad y de trabajo en equipo. </p>
                     <hr style = {{borderTop: '3px solid #833fb2', width: '60%'}}/>
-                    <h5>Dirección</h5>
-                    <p>Carrera 98A#68A-15</p>
                     <h5>Teléfono</h5>
                     <p>3225686346</p>
                     <h5>Correo</h5>
                     <p>orozco_juan@javeriana.edu.co</p>
                     <h5>Sitio Web</h5>
-                    <p>www.mysite.com</p>
+                    <p>www.juanorozco.tech</p>
                     <hr style = {{borderTop: '3px solid #833fb2', width: '60%'}}/>
 
                     </div>
                </Cell>
+               
                <Cell className="resume-right-col" col={8}>
-                    <h2>Educación</h2>
-                    <Education
-                    startYear = {2004}
-                    endYear = {2014}
-                    escuela = {'Institución Educativa San Francisco de Asis'}
-                    />
+                    
+                <h2>Educación</h2>
                     <Education
                     startYear = {2015}
                     endYear = {2020}
                     escuela = {'Pontificia Universidad Javeriana'}
+                    />
+                    <h2>Experiencia</h2>
+                    <Experience
+                    startYear = {'Enero 2018 ' }
+                    endYear = {'Junio 2018'}
+                    empresa = {'Metrilab ltda.'}
+                    descripcion = {'Trabajo en adsdsadd'}
+                    />
+                    <Experience
+                    startYear = {'Agosto 2019 ' }
+                    endYear = {'Noviembre 2019'}
+                    empresa = {'Fundación San Miguel (práctica social).'}
+                    descripcion = {'Trabajo en adsdsadd'}
                     />
                     <hr style={{borderTop: '3px solid #e22947'}} />
                     <h2>Habilidades</h2>
