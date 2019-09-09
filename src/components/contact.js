@@ -13,7 +13,7 @@ render () {
                 alt ="avatar"
                 style = {{height: '250px'}}
             />
-            <p style ={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p style ={{width: '75%', margin: 'auto', paddingTop: '1em'}}>A través de los siguientes medios podrás contactarte conmigo.</p>
         </Cell>
         <Cell col={6}>
             <h2>Contáctame</h2>
@@ -34,8 +34,8 @@ render () {
                 </ListItem>
                 <ListItem>
                     <ListItemContent style = {{fontSize: '28px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
-                         www.fb.com/ingjuanorozco
+                    <i className="fa fa-envelope" aria-hidden="true"></i>
+                         ingjuanorozco@outlook.com
                     </ListItemContent>
                 </ListItem>
                 </List>
