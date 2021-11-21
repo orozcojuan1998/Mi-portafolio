@@ -14,9 +14,9 @@ render () {
                 className = "avatar-img"
                 />
                 <div className ="banner-text">
-                <h1>Ingeniero de sistemas</h1>
+                <h1>Test Automation Engineer</h1>
                 <hr/>
-                <p>HTML/CSS | Boostrap | JS | React | PHP | Node | Java | SQL</p>
+                <p>Selenium | Cypress | Cucumber | Jira | JS/TS | Node | Java | SQL</p>
                 <div className ="social-links">
                 <a href="https://www.linkedin.com/in/juan-david-orozco-5b59b6168/" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-linkedin-square" aria-hidden="true" />
